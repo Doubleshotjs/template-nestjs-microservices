@@ -1,0 +1,11 @@
+server:
+  port: 3011
+
+microserviceService:
+  options:
+    port: 3111
+
+swagger:
+  title: Service B Swagger
+
+logsPath: service-b

@@ -1,0 +1,13 @@
+# http server config
+server:
+  port: 3009
+  prefix:
+
+# swagger config
+swagger:
+  title: API Docs
+  description: api docs
+  path: swagger
+
+# to save logs
+logsPath: apps

@@ -1,0 +1,29 @@
+# microservice config
+
+# TCP = 0,
+# REDIS = 1,
+# NATS = 2,
+# MQTT = 3,
+# GRPC = 4,
+# RMQ = 5,
+# KAFKA = 6
+
+# default config
+microserviceService:
+  transport: 0
+  options:
+    host: localhost
+    port: 3100
+
+# microserviceClients.key for @Inject(name)
+microserviceClients:
+  SERVICE_A:
+    transport: 0
+    options:
+      host: localhost
+      port: 3110
+  SERVICE_B:
+    transport: 0
+    options:
+      host: localhost
+      port: 3111

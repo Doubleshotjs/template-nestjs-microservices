@@ -1,0 +1,7 @@
+server:
+  port: 3009
+
+swagger:
+  title: Gateway Swagger
+
+logsPath: gateway

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "gateway",
+    "root": "apps/gateway",
+    "prefixColor": "#facc15"
+  },
+  {
+    "name": "service-a",
+    "root": "apps/service-a",
+    "prefixColor": "#f472b6"
+  },
+  {
+    "name": "service-b",
+    "root": "apps/service-b",
+    "prefixColor": "#67e8f9"
+  }
+]

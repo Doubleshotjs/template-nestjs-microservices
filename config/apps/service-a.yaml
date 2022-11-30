@@ -1,0 +1,11 @@
+server:
+  port: 3010
+
+microserviceService:
+  options:
+    port: 3110
+
+swagger:
+  title: Service A Swagger
+
+logsPath: service-a
